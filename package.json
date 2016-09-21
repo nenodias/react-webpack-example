@@ -1,0 +1,23 @@
+{
+  "name": "react-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8088",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
+    "jsx-loader": "~0.11.2"
+  }
+}
